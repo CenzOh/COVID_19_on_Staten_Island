@@ -9,3 +9,6 @@ For my class, we used the application QGIS version 2.18.28 to develop our maps. 
 After the software downloads, you should have a folder on your desktop named QGIS 2.18 with the shortcut to open the application either through the browser or through the desktop app (QGIS Desktop 2.18.28).
 
 Afterwards, select Project > Open > select the Project File from the appropriately named folder.
+
+## Maps
+~[VaccineLocations](/Maps/Map9_VaccineLocations.jpg)
