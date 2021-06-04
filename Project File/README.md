@@ -1,0 +1,1 @@
+Project Files makeup the base of developing the maps. The QGIS Project file is the start of implementing shapefiles and filtering out data. The QGIS~ File is the file for the Print Composer. This allows the use of adding text such as title, metadata, and legend. 
