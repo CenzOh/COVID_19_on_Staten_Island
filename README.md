@@ -11,4 +11,5 @@ After the software downloads, you should have a folder on your desktop named QGI
 Afterwards, select Project > Open > select the Project File from the appropriately named folder.
 
 ## Maps
-~[VaccineLocations](/Maps/Map9_VaccineLocations.jpeg)
+![VaccineLocations](/Maps/Map9_VaccineLocations.jpeg)
+
