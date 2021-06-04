@@ -15,5 +15,5 @@ Afterwards, select Project > Open > select the Project File from the appropriate
 
 ![VaccineLocations](/Maps/Map10_CovidCaseEthnicity.jpeg)
 
-![VaccineLocations](/Maps/Map9_VaccineLocationsType.jpeg)
+![VaccineLocations](/Maps/Map11_VaccineLocationsType.jpeg)
 
