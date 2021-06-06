@@ -17,5 +17,9 @@ This map demonstrates the locations of all vaccination distribution centers on S
 
 ![VaccineLocations](/Maps/Map10_CovidCaseEthnicity.jpeg)
 
+This map demonstrates the ratio of ethnicities per zip code on Staten Island in the form of a pie chart. I have also included the number of COVID-19 cases. I was initially developing a map based on the number of COVID-19 cases by ethnicity, however, I was unable to find any data about this. I was able to discover data regarding the number of residents per zip code on Staten Island based on their ethnicity. I opted to include ethnicity data on WHite, Black, Asian, and Hispanic because they were the highest values compared to data on other ethnicities. I discovered that a great deal of White residents live on the South Shore (Hispanic numbers are the second highest out of WHite, Black, and Asian) including zip codes 10307, 10309, and 10312. Also, a great deal of Hispanic residents lived on the North Shore (Black numbers are generally the second highest our of White, Asian, and Hispanic) including zip codes 10303, 10302, and 10310. I was unable to reach a conclusion regarding ethnicity playing a role in COVID-19 cases. In a zip code such as 10314, it holds the highest total population of residents (over 85,000 residents) and thus has the highest number of COVID-19 cases. Both zip codes 10308 and 10304 have a drastic difference in number of populaiton (10308 has 27,000 residents while 10304 has 41,000 residents). 
+
+The number of  White residents in 10308 is 25,000 while 10304 is 14,000 (10308 is higher), the Black resident populaiton in 10308 is 40 while in 10304 it is 10,000 (10304 is higher), the Asian population number is 1,000 in 10308 and 4,000 in 10304 (10304 is higher), and the Hispanic populaiton
+
 ![VaccineLocations](/Maps/Map11_VaccineLocationsType.jpeg)
 
