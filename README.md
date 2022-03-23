@@ -31,9 +31,19 @@ Each distribution center is labeled by the street it is located on, which is imp
 **Table 1 - Important Data Points**
 Zip Code | Population | Covid-19 Cases | Percent of Coiv-19 Cases | Percent of Seniors | People / Square Mile | Number of Vaccine Centers | Rooms / Home 
 --- | --- | --- | --- | --- | --- | --- | --- | 
-10314 | 92523 | 11171 | 8.28% | 12.73% | 6650.27 | 9 | 5.8
-
+10314 | 92523 | 11171 | 8.28% | 12.73% | 6650.27 | 9 | | 5.8
+10312	| 61052	| 7753	| 7.87%	| 9.43%	| 7013.96	| 3	| | 6.3
+10310	| 23441	| 2812	| 8.34%	| 10.83%	| 12829.03	| 1	| 5.4
+10309	| 32939	| 4611	| 7.14%	| 7.74%	| 3862.03	| 3	| 6.2
+10308	| 29820	| 3749	| 7.95%	| 11.72%	| 14230.06	| 2	| 6
+10307	| 14912	| 2025	| 7.36%	| 8.64%	| 7091.02	| 2	| 6
+10306	| 52806	| 7554	| 6.99%	| 15.06%	| 7104.18	| 4	| 5.5
+10305	| 42856	| 5631	| 7.61%	| 13.22%	| 8962.46	| 3| 	5.1
+10304	| 41886	| 5574	| 7.51%	| 11.53%	| 10617.85	| 1	| 4.9
+10303	| 26512	| 3235	| 8.19%	| 7.5%	| 5426	| 3	| 4.9
+10302	| 18484	| 2430	| 7.60%	| 11.48%| 	13875.4	| 4	| 5.2
+10301	| 38904	| 4547	| 8.55%	| 12.26%	| 10327.23	| 6	| 4.3
 
 
 ## Quick note 
-Map 10, COVID-19 cases and ethnicities was removed due to the lack of connection with this data and other data within the research. 
+**Reference Map 10**, COVID-19 Cases and Ethnicities was removed due to the lack of connection with this data and other data within the research. 
