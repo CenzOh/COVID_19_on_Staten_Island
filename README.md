@@ -11,7 +11,9 @@ After the software downloads, you should have a folder on your desktop named QGI
 Afterwards, select Project > Open > select the Project File from the appropriately named folder.
 
 ## Maps
-![VaccineLocations](/Maps/Map1_5_%COVIDCases.jpeg)
+![Percent_COVID_Cases](/Maps/Map1_5_COVIDCases.jpeg)
+
+![Vaccine_locations](/Maps/Map11_5_VaccineLocationsOffered&Type.jpeg)
 
 This map demonstrates the locations of all vaccination distribution centers on Staten Island. Each distribution center is labeled by the street it is located on, which is important for certain distribution centers that have multiple locations on Staten Island (such as CVS Pharmacy). I also characterized each location by residents being able to walk in for the vaccine or by scheduling an appointment for the vaccine. I found it would be important to see if residents would be more willing to receive the vaccine if they could simply walk in to receive the vaccine. Interestingly, I have found that not many distribution centers offer the vaccine as a walk in. I have concluded that walk-in vaccination centers are not a large factor in residents willing to receive the vaccines; rather, an area with more vaccines would most likely have more residents receive the vaccinations. The number of vaccinations received is demonstrated in a choropleth method (graduating color scheme from white to blue, blue indicating more residents have received the vaccination). The zip code 10314 has 9 vaccination distribution centers (one of them offers walk in vaccination) and this zip code has the most vaccinations (at least 33,000 first dose vaccinations as of May 17th, 2021. Other zip codes such as 10310, 10307, and 10302 which have 1, 2, and 3 vaccination centers respectively have the lowest number of vaccinations (approximately 5,000 to 10,000 vaccinations). The more vaccination centers that are present, the more likely Staten Island residents would receive the vaccination.
 
@@ -21,7 +23,12 @@ This map demonstrates the ratio of ethnicities per zip code on Staten Island in 
 
 I was unable to reach a conclusion regarding ethnicity playing a role in COVID-19 cases. In a zip code such as 10314, it holds the highest total population of residents (over 85,000 residents) and thus has the highest number of COVID-19 cases. Both zip codes 10308 and 10304 have a drastic difference in number of population (10308 has 27,000 residents while 10304 has 41,000 residents). The number of White residents in 10308 is 25,000 while 10304 is 14,000 (10308 is higher), the Black resident population in 10308 is 40 while in 10304 it is 10,000 (10304 is higher), the Asian population number is 1,000 in 10308 and 4,000 in 10304 (10304 is higher), and the Hispanic population is 3,000 in 10308 and 11,000 in 10304 (10304 is higher). Overall, 10304 has a higher population for Black, Asian, and Hispanic residents, however, they are both in the same margin in the number of COVID-19 cases being between 3,400 and 4,900. The difference in ethnicity does not change the number of COVID-19 cases. I believe the overall population makes a difference between which zip codes had more COVID-19 cases and which zip codes had less COVID-19 cases (I have shown this in a previous map).
 
+![People_per_square_mile](/Maps/Map13_PeoplePerSquareMile.jpeg)
 
-![VaccineLocations](/Maps/Map11_VaccineLocationsType.jpeg)
+![Percent_Seniors_Over_65](/Maps/Map15_SeniorsOver65.jpeg)
 
-This map demonstrates the locations of all vaccination distribution centers on Staten Island. This map differs from the first map because it displays each vaccination center by which vaccine they offer (either Moderna, Pfizer, or Johnson & Johnson as well as a combination of two or three of these types of vaccines). I was curious to inspect which vaccinations were the most popular in different zip codes of Staten Island and if that affected the number of residents who get vaccinated. I found that Moderna are the most popular to be offered (17 centers solely offer it and 6 offer Moderna and a combination of the other two), followed by Pfizer vaccinations (16 centers solely offer it and 3 offer Pfizer and a combination of the other two vaccines), and last is Johnson & Johnson (No centers solely provide Johnson & Johnson, however, 4 centers offer it and a combination of the other two vaccines). Interestingly, many zip codes have several options for residents to choose their vaccines (10306 has centers for just Moderna, just Pfizer, and Moderna and Johnson & Johnson for instance). 10314 has the largest number of centers (6 offering Pfizer, 2 offering Moderna, and one offering Moderna and Johnson & Johnson). Overall, it is apparent that zip codes that have a larger number of vaccination centers seem to accumulate more residents receiving the vaccinations. Will further add to this research.
+![Rooms_per_Home](/Maps/Map16_RoomsPerHome.jpeg)
+
+
+
+## Quick note 
