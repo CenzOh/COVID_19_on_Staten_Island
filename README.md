@@ -12,6 +12,7 @@ Afterwards, select Project > Open > select the Project File from the appropriate
 
 ## Maps
 ![Percent_COVID_Cases](/Maps/Map1_5_COVIDCases.jpeg)
+Percent of COVID-19 cases per zip code. This map lists the total percentage of COVID-19 cases from the beginning of the pandemic (February 2020) until May 25th, 2021. Each zip code is denoted a color and the range of COVID-19 cases; zip codes with a dark color represent a higher percentage of COVID-19 cases while the lighter color zip codes represent less percentages of COVID-19 cases. 
 
 ![Vaccine_locations](/Maps/Map11_5_VaccineLocationsOffered&Type.jpeg)
 
