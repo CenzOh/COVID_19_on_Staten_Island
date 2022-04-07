@@ -29,7 +29,7 @@
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="VacSiteApptOnly20210520142859750" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/VacSiteApptOnly/VacSiteApptOnly.shp|layerid=0|subset=&quot;Type&quot; LIKE 'Appointment'" name="VacSiteApptOnly">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="ZIP_CODE_04011420210517125919939" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 Final Project/zipcode/ZIP_CODE_040114.shp|layerid=0|subset=&quot;PO_NAME&quot; LIKE 'Staten Island'" name="ZIP_CODE_040114">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="ZIP_CODE_04011420210911125030697" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/zipcode/ZIP_CODE_040114.shp|layerid=0|subset=&quot;PO_NAME&quot; LIKE 'Staten Island'" name="ZIP_CODE_040114">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -37,10 +37,10 @@
   <mapcanvas>
     <units>feet</units>
     <extent>
-      <xmin>895610.51206644345074892</xmin>
-      <ymin>112598.14135903998976573</ymin>
-      <xmax>1001183.22829409036785364</xmax>
-      <ymax>187155.39276221714681014</ymax>
+      <xmin>909570.66399815899785608</xmin>
+      <ymin>123777.40887279021262657</ymin>
+      <xmax>990793.36519473732914776</xmax>
+      <ymax>181155.09427742526168004</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -60,18 +60,15 @@
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="VaccineSites_copy20210603110646624"/>
       <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="VaccineSites_copy20210603110640172"/>
-      <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:2263" srcDatumTransform="-1" destDatumTransform="-1" layerid="ZIP_CODE_04011420210517125919939"/>
       <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="VaccineSites_copy20210603110807070"/>
-      <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="VacSiteApptOnly20210520142859750"/>
       <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="VaccineSites_copy20210603110644593"/>
-      <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="VacSiteWalkIn20210520143221230"/>
       <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="VaccineSites_copy20210603110809050"/>
+      <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:2263" srcDatumTransform="-1" destDatumTransform="-1" layerid="ZIP_CODE_04011420210911125030697"/>
       <layer_coordinate_transform destAuthId="EPSG:2263" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="VaccineSites20210518124940256"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>ZIP_CODE_04011420210517125919939</item>
       <item>VaccineSites20210518124940256</item>
       <item>VacSiteApptOnly20210520142859750</item>
       <item>VacSiteWalkIn20210520143221230</item>
@@ -80,6 +77,7 @@
       <item>VaccineSites_copy20210603110646624</item>
       <item>VaccineSites_copy20210603110807070</item>
       <item>VaccineSites_copy20210603110809050</item>
+      <item>ZIP_CODE_04011420210911125030697</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -125,7 +123,7 @@
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ZIP_CODE_040114" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="ZIP_CODE_04011420210517125919939" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="ZIP_CODE_04011420210911125030697" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -176,7 +174,7 @@
               <property key="legend/title-label" value="Appointment Only Vaccination"/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="ZIP_CODE_04011420210517125919939" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 Final Project/zipcode/ZIP_CODE_040114.shp|layerid=0|subset=&quot;PO_NAME&quot; LIKE 'Staten Island'" name="ZIP_CODE_040114">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="ZIP_CODE_04011420210517125919939" name="ZIP_CODE_040114">
             <customproperties>
               <property key="legend/label-0" value=" 5,203 - 10,889"/>
               <property key="legend/label-1" value=" 10890 - 16,576 "/>
@@ -532,7 +530,7 @@
         </lineStyle>
         <StartPoint x="225.135" y="34.6016"/>
         <StopPoint x="184.018" y="59.8788"/>
-        <ComposerItem pagey="32.9602" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="182.376" y="32.9602" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="44.4004" outlineWidth="0.3" excludeFromExports="0" uuid="{85cb5adc-f34c-44b2-8716-01147932c31c}" height="28.56" itemRotation="0" frame="false" pagex="182.376">
+        <ComposerItem pagey="32.9602" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="182.377" y="32.9602" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="44.3998" outlineWidth="0.3" excludeFromExports="0" uuid="{85cb5adc-f34c-44b2-8716-01147932c31c}" height="28.56" itemRotation="0" frame="false" pagex="182.377">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -562,7 +560,7 @@
         </lineStyle>
         <StartPoint x="162.673" y="41.3422"/>
         <StopPoint x="166.829" y="56.8455"/>
-        <ComposerItem pagey="39.7008" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="161.031" y="39.7008" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="7.43953" outlineWidth="0.3" excludeFromExports="0" uuid="{8ba9f45a-79f1-47f0-80af-82e280989ec3}" height="18.7862" itemRotation="0" frame="false" pagex="161.031">
+        <ComposerItem pagey="39.7008" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="161.032" y="39.7008" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="7.43884" outlineWidth="0.3" excludeFromExports="0" uuid="{8ba9f45a-79f1-47f0-80af-82e280989ec3}" height="18.7861" itemRotation="0" frame="false" pagex="161.032">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -592,7 +590,7 @@
         </lineStyle>
         <StartPoint x="141.777" y="37.0732"/>
         <StopPoint x="163.347" y="55.8344"/>
-        <ComposerItem pagey="35.4317" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="140.135" y="35.4317" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="24.8527" outlineWidth="0.3" excludeFromExports="0" uuid="{77c35371-0842-437f-b2d7-587d68135790}" height="22.0441" itemRotation="0" frame="false" pagex="140.135">
+        <ComposerItem pagey="35.4318" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="140.136" y="35.4318" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="24.8528" outlineWidth="0.3" excludeFromExports="0" uuid="{77c35371-0842-437f-b2d7-587d68135790}" height="22.044" itemRotation="0" frame="false" pagex="140.136">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -651,7 +649,7 @@
               <property key="legend/title-label" value="Pfizer, Moderna, Johnson &amp; Johnson"/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="ZIP_CODE_04011420210517125919939" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 Final Project/zipcode/ZIP_CODE_040114.shp|layerid=0|subset=&quot;PO_NAME&quot; LIKE 'Staten Island'" name="ZIP_CODE_040114">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="ZIP_CODE_04011420210517125919939" name="ZIP_CODE_040114">
             <customproperties>
               <property key="legend/label-0" value=" 5,203 - 10,889 "/>
               <property key="legend/label-1" value=" 10,890 - 16,576"/>
@@ -749,6 +747,254 @@
       <customproperties/>
     </Composition>
   </Composer>
+  <Composer title="VaccineLocationSept" visible="1">
+    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{df8ec428-ca1e-4b35-8e3c-419c18f9e7e0}" alignmentSnap="1" printResolution="300" paperWidth="297" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="210" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <ComposerArrow arrowHeadFillColor="255,153,0,255" arrowHeadOutlineColor="0,0,0,255" startMarkerFile="" boundsBehaviourVersion="24" arrowHeadWidth="3" endMarkerFile="" outlineWidth="0.2" markerMode="0">
+        <lineStyle>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,153,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </lineStyle>
+        <StartPoint x="213.058" y="38.118"/>
+        <StopPoint x="173.701" y="62.2905"/>
+        <ComposerItem pagey="36.4766" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="172.059" y="36.4766" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.6405" outlineWidth="0.3" excludeFromExports="0" uuid="{9f49bff7-6286-4a11-9d8a-cbf65c325734}" height="27.4553" itemRotation="0" frame="false" pagex="172.059">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerArrow>
+      <ComposerArrow arrowHeadFillColor="255,153,0,255" arrowHeadOutlineColor="0,0,0,255" startMarkerFile="" boundsBehaviourVersion="24" arrowHeadWidth="3" endMarkerFile="" outlineWidth="0.2" markerMode="0">
+        <lineStyle>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,153,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </lineStyle>
+        <StartPoint x="136.495" y="40.9132"/>
+        <StopPoint x="154.677" y="58.7612"/>
+        <ComposerItem pagey="39.2718" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="134.854" y="39.2718" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="21.4649" outlineWidth="0.3" excludeFromExports="0" uuid="{07f88a32-9883-4995-96ad-b3cd641f11be}" height="21.1308" itemRotation="0" frame="false" pagex="134.854">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerArrow>
+      <ComposerArrow arrowHeadFillColor="255,153,0,255" arrowHeadOutlineColor="0,0,0,255" startMarkerFile="" boundsBehaviourVersion="24" arrowHeadWidth="3" endMarkerFile="" outlineWidth="0.2" markerMode="0">
+        <lineStyle>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,153,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </lineStyle>
+        <StartPoint x="153.395" y="45.2939"/>
+        <StopPoint x="158.313" y="58.7612"/>
+        <ComposerItem pagey="43.6525" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="151.753" y="43.6525" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="8.20079" outlineWidth="0.3" excludeFromExports="0" uuid="{8d74beea-69d3-4b4c-a3c5-c0554e11cbb4}" height="16.7501" itemRotation="0" frame="false" pagex="151.753">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerArrow>
+      <ComposerLegend symbolWidth="7" title="Legend" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" legendFilterByAtlas="1" columnCount="1" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="2" rasterBorder="1">
+        <styles>
+          <style marginBottom="2" name="title">
+            <styleFont description="Arial Rounded MT Bold,16,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="group">
+            <styleFont description="Bahnschrift,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="subgroup">
+            <styleFont description="Bahnschrift,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="symbol">
+            <styleFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" marginLeft="2" name="symbolLabel">
+            <styleFont description="Arial,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+        </styles>
+        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+          <customproperties/>
+          <layer-tree-group expanded="1" checked="Qt::Checked" name="Vaccine Offered">
+            <customproperties>
+              <property key="legend/title-style" value="group"/>
+            </customproperties>
+            <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="VaccineSites_copy20210603110646624" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/AllVaccineSites/VaccineSites.shp|layerid=0|subset=&quot;VaccOffer&quot; LIKE 'Moderna 18+'" name="Moderna">
+              <customproperties>
+                <property key="legend/label-0" value="Moderna"/>
+                <property key="legend/node-order" value="0"/>
+                <property key="legend/title-style" value="hidden"/>
+              </customproperties>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="VaccineSites_copy20210603110644593" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/AllVaccineSites/VaccineSites.shp|layerid=0|subset=&quot;VaccOffer&quot; LIKE 'Moderna, J&amp;J 18+'" name="Moderna, J&amp;J">
+              <customproperties>
+                <property key="legend/label-0" value="Moderna, J&amp;J"/>
+                <property key="legend/node-order" value="0"/>
+                <property key="legend/title-style" value="hidden"/>
+              </customproperties>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="VaccineSites_copy20210603110640172" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/AllVaccineSites/VaccineSites.shp|layerid=0|subset=&quot;VaccOffer&quot; LIKE 'Pfizer 12+'" name="Pfizer">
+              <customproperties>
+                <property key="legend/label-0" value="Pfizer"/>
+                <property key="legend/node-order" value="0"/>
+                <property key="legend/title-style" value="hidden"/>
+              </customproperties>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="VaccineSites_copy20210603110807070" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/AllVaccineSites/VaccineSites.shp|layerid=0|subset=&quot;VaccOffer&quot; LIKE 'Pfizer 12+, Moderna 18+'" name="Pfizer, Moderna">
+              <customproperties>
+                <property key="legend/label-0" value="Pfizer, Moderna"/>
+                <property key="legend/node-order" value="0"/>
+                <property key="legend/title-style" value="hidden"/>
+              </customproperties>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="VaccineSites_copy20210603110809050" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/AllVaccineSites/VaccineSites.shp" name="Pfizer, Moderna, J&amp;J">
+              <customproperties>
+                <property key="legend/label-0" value="Pfizer, Moderna, J&amp;J"/>
+                <property key="legend/node-order" value="0"/>
+                <property key="legend/title-style" value="hidden"/>
+              </customproperties>
+            </layer-tree-layer>
+          </layer-tree-group>
+          <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Type">
+            <customproperties>
+              <property key="legend/title-style" value="group"/>
+            </customproperties>
+            <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="VacSiteApptOnly20210520142859750" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/VacSiteApptOnly/VacSiteApptOnly.shp|layerid=0|subset=&quot;Type&quot; LIKE 'Appointment'" name="VacSiteApptOnly">
+              <customproperties>
+                <property key="legend/title-label" value="Appointment"/>
+              </customproperties>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="VacSiteWalkIn20210520143221230" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/VacSiteWalkIn/VacSiteWalkIn.shp|layerid=0|subset=&quot;Type&quot; LIKE 'Walk In'" name="VacSiteWalkIn">
+              <customproperties>
+                <property key="legend/title-label" value="Walk In"/>
+                <property key="legend/title-style" value="hidden"/>
+              </customproperties>
+            </layer-tree-layer>
+          </layer-tree-group>
+          <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="ZIP_CODE_04011420210911125030697" source="C:/Users/Cenzo Oh/Downloads/GEG212Data/Unit 10 FInal Project Continuing Post Class/zipcode/ZIP_CODE_040114.shp|layerid=0|subset=&quot;PO_NAME&quot; LIKE 'Staten Island'" name="ZIP_CODE_040114">
+            <customproperties>
+              <property key="legend/label-0" value=" 7,019 - 14,543"/>
+              <property key="legend/label-1" value=" 14,543- 22,068"/>
+              <property key="legend/label-2" value=" 22,068 - 29,593 "/>
+              <property key="legend/label-3" value=" 29,593 - 37,118"/>
+              <property key="legend/label-4" value=" 37,118 - 44,643"/>
+              <property key="legend/label-5" value=" 44,643 - 52,168"/>
+              <property key="legend/title-label" value="Full Dose Vaccines per Zip Code"/>
+            </customproperties>
+          </layer-tree-layer>
+        </layer-tree-group>
+        <ComposerItem pagey="30.9004" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="11.1109" y="30.9004" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="round" blendMode="0" width="64.4" outlineWidth="1" excludeFromExports="0" uuid="{42bb7dd5-ca31-4b89-b038-ac8c95281752}" height="113" itemRotation="0" frame="true" pagex="11.1109">
+          <FrameColor alpha="255" red="233" blue="233" green="233"/>
+          <BackgroundColor alpha="255" red="233" blue="233" green="233"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLegend>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Cartography by: Vincenzo Mezzio&#xa;Date Created: September 11th, 2021&#xa;CRS: ESPG 2263&#xa;Source: https://www1.nyc.gov/site/doh/covid/covid-19-vaccines.page" htmlState="0" halign="1">
+        <LabelFont description="Bahnschrift,12,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="179.46" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="158.661" y="179.46" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="131.878" outlineWidth="0.3" excludeFromExports="0" uuid="{5dad7efd-5319-4b81-b7a1-5d0af4188400}" height="22.7376" itemRotation="0" frame="false" pagex="158.661">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="231" blue="231" green="231"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Total First Dose and Vaccine Distribution Locations on Staten Island per Zip Code as of September 11th, 2021" htmlState="0" halign="4">
+        <LabelFont description="Arial Rounded MT Bold,24,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="7.32655" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="10.6109" y="7.32655" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="279.928" outlineWidth="0.3" excludeFromExports="0" uuid="{8610b4f9-0e93-4259-8ddf-a5197612a063}" height="20.2112" itemRotation="0" frame="false" pagex="10.6109">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="231" blue="231" green="231"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="119576.42193522045272402" xmin="889336.42330476979259402" ymax="187192.16017810636549257" xmax="986047.18309950234834105"/>
+        <LayerSet/>
+        <Grid/>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+        <ComposerItem pagey="3.1015" page="1" id="" lastValidViewScaleFactor="2.73697" positionMode="0" positionLock="false" x="3.03332" y="3.1015" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="291.038" outlineWidth="0.3" excludeFromExports="0" uuid="{df8ec428-ca1e-4b35-8e3c-419c18f9e7e0}" height="203.481" itemRotation="0" frame="false" pagex="3.03332">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="230" blue="255" green="253"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerMap>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-0.25264" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="297.61" outlineWidth="0.3" excludeFromExports="0" uuid="{80c19c13-7d0a-4d39-8d01-1183a5a484b4}" height="210.196" itemRotation="0" frame="false" pagex="-0.25264">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="231" blue="231" green="231"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <customproperties>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
+      </customproperties>
+    </Composition>
+  </Composer>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>VacSiteApptOnly20210520142859750</id>
@@ -807,7 +1053,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="67,223,165,255"/>
+              <prop k="color" v="255,255,255,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -1152,10 +1398,10 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="255,153,0,255"/>
+              <prop k="color" v="255,255,255,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
+              <prop k="name" v="square"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -1164,7 +1410,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
+              <prop k="scale_method" v="area"/>
               <prop k="size" v="2"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
@@ -1438,7 +1684,7 @@ def my_form_open(dialog, layer, feature):
         <default field="rotation" expression=""/>
         <default field="orig_ogc_fid" expression=""/>
       </defaults>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "SiteName", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
@@ -1840,7 +2086,11 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{2d5ef37c-3404-4f6b-b492-a98b6ffb292a}">
+          <rule key="{ace00e44-ee5b-4816-a710-75fc44c42bed}" symbol="0"/>
+          <rule filter=" &quot;Type&quot;  = 'Appointment'" key="{567e4d52-cc74-4b4a-ae07-9472b701a958}" symbol="1"/>
+        </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
@@ -1864,9 +2114,29 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="255,0,255,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
         </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -2188,9 +2458,13 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{fcfca842-a137-4702-92c1-168dce9b85c8}">
+          <rule key="{9624cc2f-7116-4ff7-933d-f1e44a53903a}" symbol="0"/>
+          <rule filter="Type = 'Appointment'" key="{b98c5d1a-0a4c-4f41-bdce-710d84d044d4}" symbol="1"/>
+        </rules>
         <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+          <symbol alpha="0.960784" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="0,255,51,255"/>
@@ -2212,9 +2486,29 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="0,255,51,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
         </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -2536,7 +2830,11 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{83e66483-e49a-4c02-8ad7-a23fbf590c9b}">
+          <rule key="{cba588e7-574c-4186-8269-29c187e0298b}" symbol="0"/>
+          <rule filter="&quot;Type&quot; = 'Appointment'" key="{9deb6e42-4f7c-43e4-b6c0-ad7469e08ca9}" symbol="1"/>
+        </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
@@ -2560,9 +2858,29 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="255,153,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
         </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -2884,7 +3202,11 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{f561fdd0-5f37-4e53-a484-5afac81ff508}">
+          <rule key="{a121da10-f74d-476d-a20f-83b236a2d44b}" symbol="0"/>
+          <rule filter="Type = 'Appointment'" key="{9b9efbf6-7302-4e59-b4f5-ce0b7fce2f44}" symbol="1"/>
+        </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
@@ -2908,9 +3230,29 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="255,255,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
         </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -3229,7 +3571,11 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{2166fb28-d796-48c7-9078-b2804fb7a4e0}">
+          <rule key="{9afc094f-f8f6-4ec9-b508-8fec891b917b}" symbol="0"/>
+          <rule filter="&quot;Type&quot; = 'Appointment'" key="{6b755c4d-3232-4c37-a183-c86ed7128da0}" symbol="1"/>
+        </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
@@ -3253,9 +3599,29 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="255,0,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
         </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -3523,14 +3889,8 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "SiteName", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <extent>
-        <xmin>913129.01887081563472748</xmin>
-        <ymin>120020.85646513104438782</ymin>
-        <xmax>1067494.2754283994436264</xmax>
-        <ymax>272710.94937829673290253</ymax>
-      </extent>
-      <id>ZIP_CODE_04011420210517125919939</id>
-      <datasource>../../Unit 10 Final Project/zipcode/ZIP_CODE_040114.shp|layerid=0|subset="PO_NAME" LIKE 'Staten Island'</datasource>
+      <id>ZIP_CODE_04011420210911125030697</id>
+      <datasource>../zipcode/ZIP_CODE_040114.shp|layerid=0|subset="PO_NAME" LIKE 'Staten Island'</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3636,18 +3996,24 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="HispanPop">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="%VacantHom">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SeniOver65">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="orig_ogc_fid">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="1Dose" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+      <renderer-v2 attr="FullyVacc" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
         <ranges>
-          <range render="true" symbol="0" lower="5203.000000000000000" upper="10889.833333333332121" label=" 5203.0000 - 10889.8333 "/>
-          <range render="true" symbol="1" lower="10889.833333333332121" upper="16576.666666666664241" label=" 10889.8333 - 16576.6667 "/>
-          <range render="true" symbol="2" lower="16576.666666666664241" upper="22263.499999999996362" label=" 16576.6667 - 22263.5000 "/>
-          <range render="true" symbol="3" lower="22263.499999999996362" upper="27950.333333333328483" label=" 22263.5000 - 27950.3333 "/>
-          <range render="true" symbol="4" lower="27950.333333333328483" upper="33637.166666666664241" label=" 27950.3333 - 33637.1667 "/>
-          <range render="true" symbol="5" lower="33637.166666666664241" upper="39324.000000000000000" label=" 33637.1667 - 39324.0000 "/>
+          <range render="true" symbol="0" lower="7019.000000000000000" upper="10890.000000000000000" label=" 7019.0000 - 14543.8333 "/>
+          <range render="true" symbol="1" lower="10890.000000000000000" upper="16577.000000000000000" label=" 14543.8333 - 22068.6667 "/>
+          <range render="true" symbol="2" lower="16577.000000000000000" upper="22264.000000000000000" label=" 22068.6667 - 29593.5000 "/>
+          <range render="true" symbol="3" lower="22264.000000000000000" upper="27951.000000000000000" label=" 29593.5000 - 37118.3333 "/>
+          <range render="true" symbol="4" lower="27951.000000000000000" upper="33637.000000000000000" label=" 37118.3333 - 44643.1667 "/>
+          <range render="true" symbol="5" lower="33637.000000000000000" upper="52168.000000000000000" label=" 44643.1667 - 52168.0000 "/>
         </ranges>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
@@ -3745,7 +4111,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="76,139,114,255"/>
+              <prop k="color" v="247,251,255,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -3792,7 +4158,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/centroidInside" value="false"/>
         <property key="labeling/centroidWhole" value="false"/>
         <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/displayAll" value="true"/>
         <property key="labeling/dist" value="0"/>
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
@@ -3807,7 +4173,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/fontLimitPixelSize" value="false"/>
         <property key="labeling/fontMaxPixelSize" value="10000"/>
         <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSize" value="8"/>
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/fontStrikeout" value="false"/>
@@ -3901,9 +4267,9 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeType" value="0"/>
         <property key="labeling/substitutions" value="&lt;substitutions/>"/>
         <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="247"/>
-        <property key="labeling/textColorG" value="247"/>
-        <property key="labeling/textColorR" value="247"/>
+        <property key="labeling/textColorB" value="255"/>
+        <property key="labeling/textColorG" value="255"/>
+        <property key="labeling/textColorR" value="255"/>
         <property key="labeling/textTransp" value="0"/>
         <property key="labeling/upsidedownLabels" value="0"/>
         <property key="labeling/useSubstitutions" value="false"/>
@@ -3997,12 +4363,14 @@ def my_form_open(dialog, layer, feature):
         <alias field="BlackPop" index="24" name=""/>
         <alias field="AsianPop" index="25" name=""/>
         <alias field="HispanPop" index="26" name=""/>
-        <alias field="orig_ogc_fid" index="27" name=""/>
+        <alias field="%VacantHom" index="27" name=""/>
+        <alias field="SeniOver65" index="28" name=""/>
+        <alias field="orig_ogc_fid" index="29" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;ZIPCODE&quot;" sortOrder="1">
         <columns>
           <column width="-1" hidden="0" type="field" name="ZIPCODE"/>
           <column width="-1" hidden="0" type="field" name="BLDGZIP"/>
@@ -4027,8 +4395,12 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="0" type="field" name="1Dose"/>
           <column width="-1" hidden="0" type="field" name="FullyVacc"/>
           <column width="-1" hidden="0" type="field" name="SocialWrk%"/>
-          <column width="-1" hidden="0" type="field" name="orig_ogc_fid"/>
+          <column width="-1" hidden="0" type="field" name="WhitePop"/>
+          <column width="-1" hidden="0" type="field" name="BlackPop"/>
+          <column width="-1" hidden="0" type="field" name="AsianPop"/>
+          <column width="-1" hidden="0" type="field" name="HispanPop"/>
           <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="orig_ogc_fid"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -4087,6 +4459,8 @@ def my_form_open(dialog, layer, feature):
         <default field="BlackPop" expression=""/>
         <default field="AsianPop" expression=""/>
         <default field="HispanPop" expression=""/>
+        <default field="%VacantHom" expression=""/>
+        <default field="SeniOver65" expression=""/>
         <default field="orig_ogc_fid" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "PO_NAME", '&lt;NULL>' )</previewExpression>
@@ -4110,9 +4484,9 @@ def my_form_open(dialog, layer, feature):
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
@@ -4146,12 +4520,20 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>VaccineSites20210518124940256</value>
-        <value>ZIP_CODE_04011420210517125919939</value>
         <value>VacSiteApptOnly20210520142859750</value>
         <value>VacSiteWalkIn20210520143221230</value>
+        <value>VaccineSites20210518124940256</value>
+        <value>VaccineSites_copy20210603110640172</value>
+        <value>VaccineSites_copy20210603110644593</value>
+        <value>VaccineSites_copy20210603110646624</value>
+        <value>VaccineSites_copy20210603110807070</value>
+        <value>VaccineSites_copy20210603110809050</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -4164,8 +4546,16 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -4174,6 +4564,10 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
