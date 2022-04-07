@@ -31,8 +31,8 @@ Each distribution center is labeled by the street it is located on, which is imp
 **Table 1 - Important Data Points**
 Zip Code | Population | Covid-19 Cases | Percent of Coiv-19 Cases | Percent of Seniors | People / Square Mile | Number of Vaccine Centers | Rooms / Home 
 --- | --- | --- | --- | --- | --- | --- | --- | 
-10314 | 92523 | 11171 | 8.28% | 12.73% | 6650.27 | 9 | | 5.8
-10312	| 61052	| 7753	| 7.87%	| 9.43%	| 7013.96	| 3	| | 6.3
+10314 | 92523 | 11171 | 8.28% | 12.73% | 6650.27 | 9 | 5.8
+10312	| 61052	| 7753	| 7.87%	| 9.43%	| 7013.96	| 3	| 6.3
 10310	| 23441	| 2812	| 8.34%	| 10.83%	| 12829.03	| 1	| 5.4
 10309	| 32939	| 4611	| 7.14%	| 7.74%	| 3862.03	| 3	| 6.2
 10308	| 29820	| 3749	| 7.95%	| 11.72%	| 14230.06	| 2	| 6
